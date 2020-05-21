@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 3000;
 let express = require('express');
 let app = express();
 let server = require('http').Server(app);
