@@ -18,4 +18,4 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
  app=express();
-app.set("port", PORT);
+app.set("port", 3000);
