@@ -18,4 +18,4 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
 
-app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
+server.listen(3000);
