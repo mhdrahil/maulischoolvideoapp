@@ -18,6 +18,4 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
 
-app.listen(PORT, () => {
-    server.listen(3000);
-});
+server.listen(3000);
