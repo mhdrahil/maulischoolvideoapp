@@ -20,13 +20,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amirsanni/livestream-server.git"
+    "url": "https://github.com/mhdrahil/newvideochat.git"
   },
   "keywords": [
     "LiveStream",
     "Server"
   ],
-  "author": "Amir Sanni <amirsanni@gmail.com>",
+  "author": "Amir Sanni <mhd.rahil@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amirsanni/livestream-server/issues"
