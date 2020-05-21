@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 3000;
 let express = require('express');
 let app = express();
 let server = require('http').Server(app);
@@ -17,5 +17,5 @@ app.get('/', (req, res)=>{
 
 
 io.of('/stream').on('connection', stream);
- app=express();
-app.set("port", 3000);
+
+app.listen(PORT);
