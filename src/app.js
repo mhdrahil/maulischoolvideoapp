@@ -6,6 +6,11 @@ let io = require('socket.io')(server);
 let stream = require('./ws/stream');
 let path = require('path');
 let favicon = require('serve-favicon')
+const INDEX = '/index.html';
+
+const server = express()
+  .use((req, res) => res.sendFile(INDEX, { root: __dirname }))
+  .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 app.use(favicon(path.join(__dirname, 'favicon.ico')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
@@ -18,4 +23,3 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
 
-server.listen(3000);
