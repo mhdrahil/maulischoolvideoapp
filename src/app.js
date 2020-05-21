@@ -18,6 +18,4 @@ app.get('/', (req, res)=>{
 
 io.of('/stream').on('connection', stream);
 
-app.listen(PORT, () => {
-    console.log(`Our app is running on port ${ PORT }`);
-});
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
