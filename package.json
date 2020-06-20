@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhdrahil/newvideochat.git"
+    "url": "https://github.com/aafaqueshah/Maulischoolvideocallingapp.git"
   },
   "keywords": [
     "LiveStream",
     "Server"
   ],
-  "author": "Amir Sanni <mhd.rahil@gmail.com>",
+  "author": "Aafaque Shah <aafaqueshah@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amirsanni/livestream-server/issues"
