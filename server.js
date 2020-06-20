@@ -10,7 +10,7 @@ let options = {
     path: "/_turn/videochatapp77",
     method: "PUT",
     headers: {
-        "Authorization": "Basic " + Buffer.from("mhdrahil:81b2acd8-9a74-11ea-86d8-0242ac150002").toString("base64"),
+        "Authorization": "Basic " + Buffer.from("aafaqueshah:81b2acd8-9a74-11ea-86d8-0242ac150002").toString("base64"),
         "Content-Type": "application/json",
         "Content-Length": bodyString.length
     }
