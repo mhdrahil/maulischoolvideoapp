@@ -7,7 +7,7 @@ let bodyString = JSON.stringify(o);
 let https = require("https");
 let options = {
     host: "global.xirsys.net",
-    path: "/_turn/videochatapp77",
+    path: "/_turn/maulierpvideocallingapp",
     method: "PUT",
     headers: {
         "Authorization": "Basic " + Buffer.from("mhdrahil:81b2acd8-9a74-11ea-86d8-0242ac150002").toString("base64"),
