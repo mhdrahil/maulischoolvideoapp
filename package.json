@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aafaqueshah/Maulischoolvideocallingapp.git"
+    "url": "git+https://github.com/aafaqueshah/Maulischoolvideocallingapp.git"
   },
   "keywords": [
     "LiveStream",
