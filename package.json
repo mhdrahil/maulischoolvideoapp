@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aafaqueshah/Maulischoolvideocallingapp.git"
+    "url": "https://github.com/mhdrahil/maulischoolvideoapp.git"
   },
   "keywords": [
     "LiveStream",
     "Server"
   ],
-  "author": "Aafaque Shah <aafaqueshah@gmail.com>",
+  "author": "Aafaque Shah <mhd.rahil@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/amirsanni/livestream-server/issues"
