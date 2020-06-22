@@ -65,7 +65,7 @@ window.addEventListener('load', ()=>{
 
             //create room link
             let roomLink = `${location.origin}?room=${roomName.trim().replace(' ', '_')}_${helpers.generateRandomString()}`;
-            let roomLink1 = 'http://www.hindostaetechnoschool.in/SchoolERP/ts_createliveclass_link.jsp?link='+roomLink;
+            let roomLink1 = 'http://erp.maulischool.edu.in/SchoolERP/ts_createliveclass_link.jsp?link='+roomLink;
 
             //show message with link to room
             document.querySelector('#room-created').innerHTML = `Room successfully created. Click <a href='${roomLink1}'>here</a> to enter room. 
